@@ -1,0 +1,25 @@
+{
+  "name": "vladmake",
+  "version": "1.0.0",
+  "description": "Initialize Typescript packages in V L A D style",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poteat/vladmake.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "initialize",
+    "typescript",
+    "project"
+  ],
+  "author": "Michael Poteat <me@mpote.at>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poteat/vladmake/issues"
+  },
+  "homepage": "https://github.com/poteat/vladmake#readme"
+}

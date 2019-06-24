@@ -1,0 +1,42 @@
+{
+  "name": "vladmake",
+  "version": "1.0.0",
+  "description": "Initialize Typescript packages in V L A D style",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poteat/vladmake.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "initialize",
+    "typescript",
+    "project"
+  ],
+  "author": "Michael Poteat <me@mpote.at>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poteat/vladmake/issues"
+  },
+  "homepage": "https://github.com/poteat/vladmake#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.0.10",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "eslint": "^6.0.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-jest": "^22.7.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "shieldgen": "^1.0.1",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.2"
+  }
+}
