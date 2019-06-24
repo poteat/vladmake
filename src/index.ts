@@ -51,7 +51,7 @@ rl.on("line", function(line) {
   } else {
     console.log(`  Doesn't match ${regex[state]}.`);
   }
-  if (responses.length == messages.length) {
+  if (responses.length !== messages.length) {
     rl.prompt();
   }
 }).on("close", () => {
