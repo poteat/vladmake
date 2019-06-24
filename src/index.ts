@@ -61,9 +61,8 @@ rl.on("line", function(line) {
   try {
     const gitFileContents = readFileSync("./.git/config", "utf8");
     gitUrl = gitFileContents.match(/(?<=url = ).+/)[0];
-  } catch (e) {
-    console.log(e);
-  }
+    // eslint-disable-next-line no-empty
+  } catch (e) {}
 
   const packageObj = {
     name,
