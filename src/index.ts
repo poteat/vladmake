@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { readFileSync, writeFileSync } from "fs";
 import * as readline from "readline";
 import chalk from "chalk";
