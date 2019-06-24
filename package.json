@@ -1,6 +1,6 @@
 {
   "name": "vladmake",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Initialize Typescript packages in V L A D style",
   "main": "dist/index.js",
   "bin": {
