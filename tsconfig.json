@@ -9,5 +9,5 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
-  "exclude": ["src/*.test.ts"]
+  "exclude": ["src/*.test.ts", "templates"]
 }
