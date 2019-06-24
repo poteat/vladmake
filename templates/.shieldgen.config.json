@@ -1,0 +1,29 @@
+{
+  "readmePath": "readme.md",
+  "testing": {
+    "label": "build",
+    "testStatusPath": "coverage/testResults.json",
+    "pass": {
+      "message": "passed",
+      "color": "brightgreen"
+    },
+    "fail": {
+      "message": "failed",
+      "color": "red"
+    }
+  },
+  "coverage": {
+    "label": "coverage",
+    "coveragePath": "coverage/index.html",
+    "zeroCoverageColor": "ee4444",
+    "fullCoverageColor": "22dd22"
+  },
+  "airtableIntegration": {
+    "enabled": true,
+    "baseId": "appbHzsH9UCNiFabc",
+    "tableName": "Repos",
+    "nameColumn": "Name",
+    "testStatusColumn": "Test Status",
+    "coverageColumn": "Coverage"
+  }
+}
