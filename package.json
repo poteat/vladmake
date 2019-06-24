@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Initialize Typescript packages in V L A D style",
   "main": "dist/index.js",
+  "bin": {
+    "vladmake": "dist/index.js"
+  },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "version": "tsc"
   },
   "repository": {
     "type": "git",
