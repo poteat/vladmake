@@ -140,7 +140,7 @@ rl.on("line", function(line) {
     writeFileSync("readme.md", readme);
 
     const copy = exec(
-      "cp " + ["-r", `${__dirname}/../templates/*`, "."].join(" ")
+      "cp " + ["-rT", `${__dirname}/../templates`, "."].join(" ")
     );
 
     copy.on("close", code => {
